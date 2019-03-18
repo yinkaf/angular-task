@@ -1,0 +1,48 @@
+<div class="centered">
+<div class="card" style="width: 50rem;">
+  <div class="card-body">
+    <h5 class="card-title">
+      <span *ngIf="employee">Employee: {{ employee.name }} Details</span>
+      <span *ngIf="!employee">New Employee</span>
+    </h5>
+
+    <form [formGroup]="employeeForm">
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Name:</label>
+        <div class="col-sm-10">
+          <input
+            class="form-control"
+            formControlName="name"
+            placeholder="Enter name"
+          />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Department:</label>
+        <div class="col-sm-10">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="department"
+          placeholder="Enter department"
+        />
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="card-footer">
+    <div class="mx-auto d-flex">
+      <button
+        class="btn btn-primary"
+        [formGroup]="employeeForm"
+        (click)="save()"
+        [disabled]="!employeeForm.valid"
+      >
+        Save
+      </button>
+      &nbsp;
+      <button class="btn btn-secondary" (click)="cancel()">Cancel</button>
+    </div>
+  </div>
+</div>
+</div>
