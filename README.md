@@ -1,4 +1,18 @@
-# AngularTask
+
+# Angular Task
+
+# Table of contents
+
+- [Angular Task](#angular-task)
+- [Table of contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Implementation](#implementation)
+    - [Login Page](#login-page)
+    - [Empty Employees page](#empty-employees-page)
+    - [Add new Employee](#add-new-employee)
+    - [Edit Employee](#edit-employee)
+    - [Employees List](#employees-list)
+
 
 ## Requirements
 
@@ -46,12 +60,22 @@ There are 2 service class
 This app contains the following file structure
 ![File Struvture](/doc/FileStructure.png)
 
+### Login Page
+
 ![Login Page](/doc/Login.png)
+
+### Empty Employees page
 
 ![Empty Employees](/doc/EmployeeListEmpty.png)
 
+### Add new Employee
+
 ![Add new Employee](/doc/AddEmployee.png)
 
+### Edit Employee
+
 ![Edit Employee](/doc/EditEmployee.png)
+
+### Employees List
 
 ![Employee List](/doc/EmployeeList.png)
