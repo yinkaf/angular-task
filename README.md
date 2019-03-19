@@ -14,6 +14,13 @@ This angular application provides the following functionality:-
 
 ## Implementation
 
+The application used Angular Router to route to components.
+
+The following routes are available
+
+- /login Routes to the LoginComponent
+- /employees Routes to the EmployeesListComponent
+
 The app contains 3 components.
 - __LoginComponent__ This components presents the Login page. It uses Reactive Forms and makes sure that the login button is disabled until both username and password fields are populated. When the login button is pressed the route /employees is navigated to using the Router.
 
