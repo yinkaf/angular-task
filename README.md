@@ -1,27 +1,17 @@
 # AngularTask
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+## Requirements
 
-## Development server
+This angular application provides the following functionality:-
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Display a login page which caputres username and password.
+- Display an employees list page with shows a list of employees.
+- There is a add button on the employees page to add a new employee.
+- The employee data contains id, name and department.
+- From the employee list page each employee can be edited and deleted.
+- The new employee and edit employee page are shown on the same page as the employee list page.
+- When en employee is either created or edited, the employee page is refreshed.
 
-## Code scaffolding
+## Implementation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This app contains
