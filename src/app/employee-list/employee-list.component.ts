@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { EmployeeService } from '../employee.service';
+import { EmployeeService } from '../service/employee.service';
 import { Observable } from 'rxjs';
-import { Employee } from '../employee';
+import { Employee } from '../model/employee';
 
 @Component({
   selector: 'app-employee-list',
-  templateUrl: './employee-list.component.html'
-  // styleUrls: ['./employee-list.component.css']
+  templateUrl: './employee-list.component.html',
+  styleUrls: ['./employee-list.component.css']
 })
 export class EmployeeListComponent implements OnInit {
 

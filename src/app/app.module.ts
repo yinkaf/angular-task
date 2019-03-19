@@ -7,9 +7,9 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeComponent } from './employee/employee.component';
-import { EmployeeService } from './employee.service';
+import { EmployeeService } from './service/employee.service';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemmoryDataService } from './in-memmory-data.service';
+import { InMemmoryDataService } from './service/in-memmory-data.service';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
