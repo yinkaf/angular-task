@@ -14,4 +14,6 @@ This angular application provides the following functionality:-
 
 ## Implementation
 
-This app contains
+This app contains the following file structure
+![File Struvture](/doc/FileStructure.png)
+
